@@ -68,7 +68,9 @@
         "check_in_photo_url": "https://checkin.com",
         "target_wallet": "somewallet",
         "organization": "string",
-        "track_url": "https://checkin.com"
+        "track_url": "https://checkin.com",
+        "re_tracking": true,
+        "start_time": "2022-01-22T21:14:33.153Z"
       },
       {
         "id": "b680ecaf-adfe-4d33-994a-96016aeca232",
@@ -77,7 +79,9 @@
         "check_in_photo_url": "https://checkin.com",
         "target_wallet": "somewallet",
         "organization": "string",
-        "track_url": "https://checkin.com"
+        "track_url": "https://checkin.com",
+        "re_tracking": false,
+        "start_time": "2022-01-22T21:14:33.153Z"
       }
     ],
     "captures": [
