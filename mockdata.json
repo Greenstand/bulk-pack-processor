@@ -1,7 +1,7 @@
 [
   {
     "pack_format_version": 2,
-    "id": "le second format",
+    "id": "second format",
     "wallet_registrations": [
       {
         "id": "b5fcb38a-fd16-4299-a916-d6fb123d9ec4",
@@ -149,10 +149,34 @@
         "survey_id": "094334b0-22ee-478f-bf61-f752a2679ce5",
         "answers": ["response2", "response1"]
       }
+    ],
+    "tracks": [
+      {
+        "locations": [
+          {
+            "accuracy": 8.201208,
+            "latitude": 0.963332,
+            "longitude": 3.3194,
+            "capturedAt": "2013-08-19T09:35:40Z"
+          }
+        ],
+        "sessionId": "65252762-e161-4a1b-92f6-1d0e0f9dd6b5"
+      },
+      {
+        "locations": [
+          {
+            "accuracy": 28.201208,
+            "latitude": 0.9622482833333332,
+            "longitude": 37.31974508333334,
+            "capturedAt": "2013-08-19T09:35:40Z"
+          }
+        ],
+        "sessionId": "65252762-e161-4a1b-92f6-1d0e0f9dd6b5"
+      }
     ]
   },
   {
-    "id": "le first format",
+    "id": "first format",
     "registrations": [
       {
         "planter_identifier": "717457445",
