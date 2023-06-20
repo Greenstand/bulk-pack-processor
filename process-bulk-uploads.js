@@ -142,7 +142,7 @@ const v1Requests = async (data, endpoint, httpVerb) => {
         console.log("processing v2 tracks");
         for (const track of tracks) {
           try {
-            await v2Requests({ ...track, key }, "track", true);
+            await v2Requests({ ...track, key }, "tracks", true);
           } catch (e) {
             shouldBeProcessed = false;
             errorHandler(e, track);
