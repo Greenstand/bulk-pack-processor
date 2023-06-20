@@ -89,6 +89,7 @@ const v1Requests = async (data, endpoint, httpVerb) => {
       const sessions = bulkData.sessions;
       const captures = bulkData.captures;
       const messages = bulkData.messages;
+      const tracks = bulkData.tracks;
       if (wallet_registrations?.length) {
         console.log("processing v2 wallet_registrations");
         for (const wallet_registration of wallet_registrations) {
@@ -135,6 +136,20 @@ const v1Requests = async (data, endpoint, httpVerb) => {
           }
         }
         console.log("v2 sessions done");
+      }
+
+      if (tracks?.length) {
+        console.log("processing v2 tracks");
+        for (const track of tracks) {
+          try {
+            await v2Requests({ ...track, key }, "track", true);
+          } catch (e) {
+            shouldBeProcessed = false;
+            errorHandler(e, track);
+            continue;
+          }
+        }
+        console.log("v2 tracks done");
       }
 
       if (captures?.length) {
