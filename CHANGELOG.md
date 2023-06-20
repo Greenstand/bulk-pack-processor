@@ -1,3 +1,11 @@
+## [1.2.13](https://github.com/Greenstand/bulk-pack-processor/compare/v1.2.12...v1.2.13) (2023-06-20)
+
+
+### Bug Fixes
+
+* semantic release workflow ([b2d5b8f](https://github.com/Greenstand/bulk-pack-processor/commit/b2d5b8f10b3b5a39152360d7ac3782e2b0a50ead))
+* support tracks ([813a628](https://github.com/Greenstand/bulk-pack-processor/commit/813a628f835d2111586874c302e28de0a106a5ff))
+
 ## [1.2.12](https://github.com/Greenstand/bulk-pack-processor/compare/v1.2.11...v1.2.12) (2022-09-21)
 
 
